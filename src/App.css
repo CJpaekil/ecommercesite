@@ -1,0 +1,46 @@
+
+
+
+.App {
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
+
+.border-gradient {
+  border: 6px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+}
+
+.border-gradient-purple {
+  border-image-source: linear-gradient(to bottom, #743ad5, #d53a9d);
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
+.home-featured
+{
+	color:black;
+	width:100%;
+	margin-bottom:15px !important;
+	border-bottom: 1px solid #F7F7FB !important;
+	border-opacity: 0.2;
+}
+.home-part
+{
+	padding:5px 0px;
+
+}
+.home-textfield-search
+{
+	padding:50px;
+}
+.home-bgset
+{
+	height: 100vh;
+	width:100%;
+	background-color: white;
+}
